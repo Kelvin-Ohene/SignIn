@@ -1,0 +1,66 @@
+body {
+    background-image: url(4k1.JPG);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+
+p {
+    color: black;
+}
+
+.box {
+    width: 340px;
+    height: 450px;
+    background-color: transparent;
+    background-size: cover;
+    background-position: left;
+    border-radius: 60px;
+    top: 35%;
+    left: 87%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    font-weight: bolder;
+}
+
+h1 {
+    color: black;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: left;
+    font-size: medium;
+}
+
+.box input[type="placeholder"] {
+    color: darkgrey;
+}
+
+.box input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid goldenrod;
+    background: transparent;
+    outline-color: grey;
+    height: 30px;
+    color: goldenrod;
+}
+
+.box input[type="submit"] {
+    background-color: goldenrod;
+    width: 150px;
+    height: 30px;
+    font-size: small;
+    border-radius: 30px;
+}
+
+.box input[type="submit"]:hover {
+    color: royalblue;
+}
+
+.box a:hover {
+    color: goldenrod;
+}
